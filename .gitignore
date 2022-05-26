@@ -1,5 +1,6 @@
 # Dependencies
 /node_modules
+.yarn
 
 # Production
 /build
@@ -7,6 +8,7 @@
 # Generated files
 .docusaurus
 .cache-loader
+.yarnrc.yml
 
 # Misc
 .DS_Store
@@ -19,4 +21,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 package-lock.json
-yarn.lock
