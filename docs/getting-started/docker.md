@@ -103,10 +103,15 @@ sessionSecret = "secret-session-key"
 
 ## Initial start
 
-1. Start the container `docker-compose up -d`
-2. Exec into the container with `docker exec -it autobrr sh`
-3. Run the create-user command: `autobrrctl --config /config create-user <USERNAME>`. Then exit out with `exit`
-4. Now you should be able to login with the newly created user.
+Start the container `docker-compose up -d`
+
+### Create autobrr user (should not be needed)
+
+If you for some reason are not faced with account creation upon visiting the web UI, you can create a user like this:
+
+1. Exec into the container with `docker exec -it autobrr sh`
+2. Run the create-user command: `autobrrctl --config /config create-user <USERNAME>`. Then exit out with `exit`
+3. Now you should be able to login with the newly created user.
 
 ## Reverse proxies
 

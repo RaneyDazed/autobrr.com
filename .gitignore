@@ -9,6 +9,8 @@
 .docusaurus
 .cache-loader
 .yarnrc.yml
+.pnp.cjs
+.pnp.loader.mjs
 
 # Misc
 .DS_Store
